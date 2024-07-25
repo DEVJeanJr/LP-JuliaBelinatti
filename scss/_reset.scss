@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "inter";
 }
 
 img {
@@ -18,4 +19,26 @@ button {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+
+body {
+    background-color: var(--WHITE);
+    color: var(--BLACK-PRIMARY);
+}
+
+h1, h2, h3, h4 {
+    font-family: "Roboto Mono", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    padding: 0 15px;
+    margin: 0 auto;
+
 }

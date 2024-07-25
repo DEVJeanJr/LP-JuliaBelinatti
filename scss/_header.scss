@@ -1,0 +1,32 @@
+header {
+    background-color: var(--WHITE);
+    color: var(--BLACK-PRIMARY);
+    position: absolute;
+    height: fit-content;
+    opacity: 0.9;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav div a{
+    display: flex;
+}
+
+header nav ul {
+    margin: 1 auto;
+    width: fit-content;
+    display: flex;
+    gap: 6rem;
+    padding: 0 2rem;
+    font-size: small;
+    font-weight: bold;
+    align-items: flex-end;
+}
