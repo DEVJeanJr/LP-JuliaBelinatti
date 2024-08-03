@@ -1,0 +1,34 @@
+.main-numbers{
+    padding-top: 4ren;
+    padding-bottom: 122px;
+    p {
+        text-align: center;
+        width: 100%;
+        max-width: 700rem;
+        margin: 0 auto;
+        color: var(--BLACK-PRIMARY);
+        font-size: 1.6rem;
+        line-height: 155.3%;
+        margin-bottom: 10.2rem;
+    }
+
+    .box {
+        position: relative;
+        width: 100%;
+        height: 27.7rem;
+        max-width: 85.8rem;
+        margin: 0 auto;
+        border-radius: 20px;
+        border: 1.5px solid #ffe0b1;
+        .ilustra {
+            position: absolute;
+            top: -7.4rem;
+            left: -16px;
+            z-index: 1;
+
+        }
+        .content {
+
+        }
+    }
+}
